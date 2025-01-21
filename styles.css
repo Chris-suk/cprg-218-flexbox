@@ -1,0 +1,43 @@
+*{ 
+    box-sizing: border-box;
+}
+/* '*' means everthing in the page*/
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #dccfba;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+}
+/*can also do main -space- section and it will apply to everything that is 
+in the main
+flex box: 
+make them vertically aligned
+set the boxes same height
+
+make sure the logo is transparent not make it awkards*/
+main section{
+    flex: 1;
+    border: solid 1px bisque;
+}
+section h2{
+    background-color: rgb(215, 146, 100);
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+section li span {
+    font-weight: bold;
+}
+section#Desserts{
+    flex: 0.5;
+}
+
